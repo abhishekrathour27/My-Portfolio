@@ -16,7 +16,7 @@ export default function HeroSec() {
                         <button className='flex bg-blue-500 font-semibold px-3 py-2 rounded-lg cursor-pointer gap-2'>View Projects  <ArrowRight /> </button>
                         <button className=' bg-white text-black font-semibold px-3 py-2 rounded-lg cursor-pointer'>Contact Me</button>
                     </div>
-                    <div className='space-x-5'>
+                    <div className='space-x-5 '>
                         <button className='bg-white text-black p-1.5 rounded-full cursor-pointer'> < GithubIcon /> </button>
                         <button className='bg-white text-black p-1.5 rounded-full cursor-pointer'> <Linkedin /> </button>
                     </div>
