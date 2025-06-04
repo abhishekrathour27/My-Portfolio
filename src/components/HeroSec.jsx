@@ -13,7 +13,7 @@ export default function HeroSec() {
                         <span className='mt-2'>Crafting web experiences with performance and design in mind.</span>
                     </div>
                     <div className='flex gap-3'>
-                        <button className='flex bg-blue-500 font-semibold px-3 py-2 rounded-lg cursor-pointer gap-2'>View Projects  <ArrowRight /> </button>
+                        <button className='flex bg-blue-500 font-semibold px-3 py-2 rounded-lg cursor-pointer gap-2'> View Projects  <ArrowRight  /> </button>
                         <button className=' bg-white text-black font-semibold px-3 py-2 rounded-lg cursor-pointer'>Contact Me</button>
                     </div>
                     <div className='space-x-5 '>
@@ -21,7 +21,7 @@ export default function HeroSec() {
                         <button className='bg-white text-black p-1.5 rounded-full cursor-pointer'> <Linkedin /> </button>
                     </div>
                 </div>
-                <div className='flex flex-col items-center gap-5'> 
+                <div className='flex flex-col items-center gap-5'>
                     <div className='bg-white border border-blue-500 h-[200px] w-[200px] rounded-full'>
 
                     </div>
