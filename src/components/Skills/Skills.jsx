@@ -1,8 +1,7 @@
 import React from 'react'
-import Badge from './components/Badge'
+import SkillsCard from './SkillsCard'
 
 export default function Skills() {
-
     const skillCategories = [
         {
             title: "Technical Skills",
@@ -21,16 +20,14 @@ export default function Skills() {
             items: ["Teamwork", "Problem-solving", "Communication"]
         }
     ]
-
-
     return (
-        <div>
-           <center>Skills</center> 
-           <div>
-            {
-                skillCategories.map((title , items)=> <Badge key={title}   /> )
-            }
-           </div>
+        <div className='h-[60vh] bg-[#0F172B] py-8 flex flex-col items-center justify-center'>
+            <center className='text-4xl font-bold'>Skills</center>
+            <div className='grid grid-cols-3 gap-10 mt-10'>
+                {
+                    skillCategories.map((item) => <SkillsCard key={item.title} item={item} />)
+                }
+            </div>
         </div>
     )
 }
