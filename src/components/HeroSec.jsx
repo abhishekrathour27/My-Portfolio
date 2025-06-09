@@ -1,10 +1,10 @@
-import { ArrowBigRight, ArrowRight, FileText, GithubIcon, Linkedin } from 'lucide-react'
+import { ArrowBigRight, ArrowRight, FileText, GithubIcon, Instagram, Linkedin, Twitter } from 'lucide-react'
 import React from 'react'
 
 export default function HeroSec() {
     return (
         <div className='bg-[#020618]  '>
-            <div className='max-w-7xl h-[90vh] flex justify-around m-auto items-center gap-5'>
+            <div className='max-w-7xl h-[100vh] flex justify-around m-auto items-center gap-5'>
                 <div className=' space-y-10'>
                     <div className='flex flex-col text-xl gap-2'>
                         <span>Hello I'm</span>
@@ -22,6 +22,12 @@ export default function HeroSec() {
                         </div>
                         <div className='bg-white text-black p-1.5 rounded-full cursor-pointer w-fit'>
                             <a href='https://www.linkedin.com/feed/' > <Linkedin /> </a>
+                        </div>
+                        <div className='bg-white text-black p-1.5 rounded-full cursor-pointer w-fit'>
+                            <a href='https://www.linkedin.com/feed/' > <Instagram /> </a>
+                        </div>
+                        <div className='bg-white text-black p-1.5 rounded-full cursor-pointer w-fit'>
+                            <a href='https://www.linkedin.com/feed/' > <Twitter /> </a>
                         </div>
                     </div>
                 </div>

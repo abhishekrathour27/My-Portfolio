@@ -6,14 +6,13 @@ export default function Skills() {
         {
             title: "Technical Skills",
             items: [
-                "HTML5", "CSS", "JavaScript", "TypeScript",
-                "React.js", "Bootstrap", "TailwindCSS", "Next.js 13",
-                "Node.js", "Express", "Redis"
+                "HTML5", "CSS", "JavaScript",
+                "React.js", "Bootstrap", "TailwindCSS"
             ]
         },
         {
             title: "Tools",
-            items: ["Git", "GitHub", "Vercel", "Postman", "MongoDB Atlas"]
+            items: ["Git", "GitHub", "Netlify"]
         },
         {
             title: "Soft Skills",
@@ -21,8 +20,9 @@ export default function Skills() {
         }
     ]
     return (
-        <div className='h-[60vh] bg-[#0F172B] py-8 flex flex-col items-center justify-center'>
+        <div className='h-[90vh] bg-[#0F172B] py-8 flex flex-col items-center justify-center'>
             <center className='text-4xl font-bold'>Skills</center>
+            <div className="w-20 h-1 bg-blue-500 mx-auto border mt-3 rounded-full border-white/10"></div>
             <div className='grid grid-cols-3 gap-10 mt-10'>
                 {
                     skillCategories.map((item) => <SkillsCard key={item.title} item={item} />)
