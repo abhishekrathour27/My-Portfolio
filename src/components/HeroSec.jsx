@@ -1,34 +1,41 @@
 import { ArrowBigRight, ArrowRight, FileText, GithubIcon, Instagram, Linkedin, Twitter } from 'lucide-react'
 import React from 'react'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 export default function HeroSec() {
     return (
-        <div className='bg-[#020618]  '>
+        <div id='Hero' className='bg-[#020618]  '>
             <div className='max-w-7xl h-[100vh] flex justify-around m-auto items-center gap-5'>
                 <div className=' space-y-10'>
                     <div className='flex flex-col text-xl gap-2'>
-                        <span>Hello I'm</span>
+                        <span className='text-2xl'>Hello I'm</span>
                         <span className='text-6xl font-bold text-blue-500'>Abhishek Kumar Singh</span>
                         <span className='text-2xl text-gray-400 font-semibold'>Fronted Developer</span>
                         <span className='mt-2'>Crafting web experiences with performance and design in mind.</span>
                     </div>
                     <div className='flex gap-3'>
-                        <button className='flex bg-blue-500 font-semibold px-3 py-2 rounded-lg cursor-pointer gap-2'> View Projects  <ArrowRight /> </button>
-                        <button className=' bg-white text-black font-semibold px-3 py-2 rounded-lg cursor-pointer'>Contact Me</button>
+
+                        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
+                            <button className='flex bg-blue-500 font-semibold px-3 py-2 rounded-lg cursor-pointer gap-2'> View Projects  <ArrowRight /> </button>
+                        </Link>
+                        <Link activeClass='active' to='contacts' spy={true} smooth={true} offset={-80} duration={500}>
+                            <button className=' bg-white text-black font-semibold px-3 py-2 rounded-lg cursor-pointer'>Contact Me</button>
+                        </Link>
                     </div>
-                    <div className='flex gap-5 '>
-                        <div className='bg-white text-black p-1.5 rounded-full cursor-pointer w-fit'>
-                            <a href='https://github.com/abhishekrathour27' > < GithubIcon /></a>
-                        </div>
-                        <div className='bg-white text-black p-1.5 rounded-full cursor-pointer w-fit'>
-                            <a href='https://www.linkedin.com/feed/' > <Linkedin /> </a>
-                        </div>
-                        <div className='bg-white text-black p-1.5 rounded-full cursor-pointer w-fit'>
-                            <a href='https://www.linkedin.com/feed/' > <Instagram /> </a>
-                        </div>
-                        <div className='bg-white text-black p-1.5 rounded-full cursor-pointer w-fit'>
-                            <a href='https://www.linkedin.com/feed/' > <Twitter /> </a>
-                        </div>
+                    <div className="flex gap-5 text-xl">
+                        <a href="https://github.com/abhishekrathour27" target="_blank" rel="noopener noreferrer"
+                            className="hover:text-blue-400 transition-transform transform hover:scale-120">
+                            <FaGithub />
+                        </a>
+                        <a href="https://linkedin.com/in/abhishekrathour27" target="_blank" rel="noopener noreferrer"
+                            className="hover:text-blue-400 transition-transform transform hover:scale-120">
+                            <FaLinkedin />
+                        </a>
+                        <a href="https://twitter.com/abhishekrathour" target="_blank" rel="noopener noreferrer"
+                            className="hover:text-blue-400 transition-transform transform hover:scale-120">
+                            <FaTwitter />
+                        </a>
                     </div>
                 </div>
                 <div className='flex flex-col items-center gap-5'>

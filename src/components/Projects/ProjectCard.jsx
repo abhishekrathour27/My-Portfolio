@@ -3,9 +3,9 @@ import React from 'react'
 export default function ProjectCard({ projects }) {
     return (
 
-        <div className='w-full grid grid-cols-1  items-center justify-center text-sm h-full'>
+        <div className='w-screen flex flex-wrap gap-20  items-center justify-center text-sm h-full'>
             {
-                projects.map((item, index) => <div key={index} className='flex flex-col  bg-[#0F172B] w-[25vw] h-fit rounded-xl overflow-hidden'>
+                projects.map((item, index) => <div key={index} className='flex flex-col  bg-[#0F172B] w-[25vw] h-[60vh] rounded-xl overflow-hidden'>
                     <img src={item.image} alt="" />
                     <div className='p-5 space-y-2 flex flex-col'>
                         <span className='font-bold text-lg'>{item.title}</span>
