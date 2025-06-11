@@ -10,18 +10,18 @@ export default function Projects() {
             image: "/doctor_appointment.png",
             technologies: ["React.js", "Tailwind CSS"],
             features: ["Login & Sign-up", "Doctors Category", "Email verification", "Book Appointment"],
-            github: "https://github.com/rohit9098singh",
-            demo: "https://github.com/rohit9098singh/Book_Store",
+            github: "https://github.com/abhishekrathour27",
+            demo: "https://github.com/abhishekrathour27/Doctor-Appointment",
         },
         {
             id: 2,
             title: "myShop",
             description: "Responsive eCommerce Fronted Website",
             image: "/myShop.png",
-            technologies: ["Html","Javascript","Tailwind CSS"],
+            technologies: ["Html", "Javascript", "Tailwind CSS"],
             features: ["Product-Section", "Cart-Section", "Add-To-Cart Feature"],
-            github: "https://github.com/rohit9098singh",
-            demo: "https://github.com/rohit9098singh/Book_Store",
+            github: "https://github.com/abhishekrathour27",
+            demo: "https://github.com/abhishekrathour27/eCom-web-js",
         },
     ]
     return (
