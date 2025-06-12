@@ -4,9 +4,9 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 export default function ProjectCard({ projects }) {
     return (
 
-        <div className='w-screen flex flex-wrap gap-20  items-center justify-center text-sm h-full'>
+        <div className='w-screen flex flex-wrap gap-20 px-5  items-center justify-center text-sm h-fit md:h-full'>
             {
-                projects.map((item, index) => <div key={index} className='flex flex-col  bg-[#0F172B] w-[25vw] h-[60vh] rounded-xl overflow-hidden'>
+                projects.map((item, index) => <div key={index} className='flex flex-col  bg-[#0F172B] md:w-[25vw] md:h-[60vh] rounded-xl overflow-hidden'>
                     <div className='relative w-full h-fit'>
                         <img
                             src={item.image} alt={''}

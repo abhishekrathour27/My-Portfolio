@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='text-white'>
+    <div className='text-white overflow-x-hidden'>
       <Navbar />
       <HeroSec />
       <Skills />

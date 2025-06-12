@@ -5,12 +5,12 @@ import { Link } from 'react-scroll'
 
 export default function HeroSec() {
     return (
-        <div id='Hero' className='bg-[#020618]  '>
-            <div className='max-w-7xl h-[100vh] flex justify-around m-auto items-center gap-5'>
-                <div className=' space-y-10'>
+        <div id='Hero' className='bg-[#020618] '>
+            <div className='md:max-w-7xl h-fit md:h-[100vh] flex flex-col  md:flex md:flex-row md:justify-around md:m-auto items-center gap-5 pt-20 px-5 py-2'>
+                <div className=' space-y-10 w-3/4 '>
                     <div className='flex flex-col text-xl gap-2'>
-                        <span className='text-2xl'>Hello I'm</span>
-                        <span className='text-6xl font-bold text-blue-500'>Abhishek Kumar Singh</span>
+                        <span className='text-xl md:text-2xl'>Hello I'm</span>
+                        <span className='text-3xl md:text-6xl font-bold text-blue-500'>Abhishek Kumar Singh</span>
                         <span className='text-2xl text-gray-400 font-semibold'>Fronted Developer</span>
                         <span className='mt-2'>Crafting web experiences with performance and design in mind.</span>
                     </div>

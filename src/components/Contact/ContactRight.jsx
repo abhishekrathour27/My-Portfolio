@@ -42,7 +42,7 @@ export default function ContactLeft() {
   }
 
   return (
-    <div className='border border-gray-400  w-[35vw] h-fit rounded-lg space-y-1 py-10 '>
+    <div className='border bg-[#020618] border-gray-400 w-[90vw]  md:w-[35vw] h-fit rounded-lg space-y-1 py-10 '>
       <h1 className='text-2xl text-blue-500 font-bold pl-8'>Send a Message</h1>
       <div className='px-8 space-y-5'>
         <div className='flex flex-col'>

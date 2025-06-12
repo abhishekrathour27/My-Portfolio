@@ -14,12 +14,8 @@ export default function Navbar() {
 
   return (
     <nav className="bg-slate-800 fixed top-0 left-0 right-0 z-50 text-white shadow-md">
-      <div className="max-w-7xl mx-auto flex justify-between items-center h-20 px-6 md:px-10">
-        
-   
-        <h1 className="font-bold text-xl text-blue-500">Abhishek Kumar Singh</h1>
-
-        
+      <div className="max-w-7xl mx-auto flex justify-between items-center h-14 md:h-20 px-6 md:px-10">
+        <h1 className="font-bold text-xl text-blue-500">Abhishek Kumar Singh</h1>  
         <ul className="hidden md:flex gap-8 text-lg">
           {navLinks.map(({ label, to }) => (
             <Link
