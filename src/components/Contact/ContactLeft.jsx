@@ -6,14 +6,14 @@ export default function ContactLeft() {
         <div className='border bg-[#020618] border-gray-400 w-[90vw]  md:w-[30vw] md:h-[50vh] rounded-lg space-y-2 py-5 '>
             <h2 className='text-2xl text-blue-500 font-bold pl-8'>Contact Information</h2>
             <div className='pl-10 mt-8 space-y-6'>
-                <div className='flex gap-10 items-center'>
+                <div className='flex gap-5 md:gap-10 items-center'>
                     <Mail />
                     <div className='flex flex-col'>
                         <span>Email</span>
                         <span>abhishekrathour96081@gmail.com</span>
                     </div>
                 </div>
-                <div className='flex gap-10 items-center'>
+                <div className='flex gap-5 md:gap-10 items-center'>
                     <MapPin />
                     <div className='flex flex-col '>
                         <span>Location</span>

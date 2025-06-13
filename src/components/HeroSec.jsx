@@ -7,14 +7,14 @@ export default function HeroSec() {
     return (
         <div id='Hero' className='bg-[#020618] '>
             <div className='md:max-w-7xl h-fit md:h-[100vh] flex flex-col  md:flex md:flex-row md:justify-around md:m-auto items-center gap-5 pt-20 px-5 py-2'>
-                <div className=' space-y-10 w-3/4 '>
-                    <div className='flex flex-col text-xl gap-2'>
+                <div className=' space-y-10 flex flex-col items-center justify-center md:w-3/4 '>
+                    <div className='flex flex-col justify-center items-center md:flex md:flex-col text-xl gap-2 w-[80vw]'>
                         <span className='text-xl md:text-2xl'>Hello I'm</span>
                         <span className='text-3xl md:text-6xl font-bold text-blue-500'>Abhishek Kumar Singh</span>
                         <span className='text-2xl text-gray-400 font-semibold'>Fronted Developer</span>
-                        <span className='mt-2'>Crafting web experiences with performance and design in mind.</span>
+                        <span className=' ml-2 md:mt-2'>Crafting web experiences with performance and design in mind.</span>
                     </div>
-                    <div className='flex gap-3'>
+                    <div className='flex flex-col items-center md:flex md:flex-row  gap-3'>
 
                         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
                             <button className='flex bg-blue-500 font-semibold px-3 py-2 rounded-lg cursor-pointer gap-2'> View Projects  <ArrowRight /> </button>
