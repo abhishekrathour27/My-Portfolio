@@ -26,7 +26,7 @@ export default function Projects() {
     ]
     return (
 
-        <div id='projects' className='bg-[#020618] py-5 h-fit md:h-[100vh] flex flex-col items-center justify-center overflow-x-hidden'>
+        <div id='projects' className='bg-[#020618]  py-5 h-fit md:h-[100vh] flex flex-col items-center justify-center overflow-x-hidden'>
             <center className='text-4xl font-bold'>Projects</center>
             <div className="w-33 h-1 bg-blue-500 mx-auto border mt-3 rounded-full border-white/10"></div>
             <div className='mt-10'>
