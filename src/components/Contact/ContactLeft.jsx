@@ -23,7 +23,7 @@ export default function ContactLeft() {
                 <center className='bg-blue-500 h-0.5 w-74 md:w-96'></center>
                 <p>Connect with me</p>
                 <div className='flex gap-3'>
-                    <div className='bg-white text- black p-1 rounded-full cursor-pointer w-fit'>
+                    <div className='bg-white text-black p-1 rounded-full cursor-pointer w-fit'>
                         <a href='https://github.com/abhishekrathour27' > < GithubIcon /></a>
                     </div>
                     <div className='bg-white text-black p-1 rounded-full cursor-pointer w-fit'>
